@@ -10,3 +10,5 @@ Needed modules:
   - pprint
   
 Username and password must currently be the same on all machines
+
+I use the program to send several CLI commands to Aerohives
