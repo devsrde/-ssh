@@ -1,5 +1,5 @@
 # //SSH
-# Ausführen gleichen befehle über mehrere SSH-Sitzungen
+# run the same commands across multiple SSH sessions
 
 import paramiko
 import time
@@ -18,8 +18,8 @@ def comments(inputs):
 
 def parassh():
     comments("//SSH | V0.3 | Robert Schaller")
-    username = input("Benutzername: ")
-    passw = input("Paswort: ")
+    username = input("Username: ")
+    passw = input("Pasword: ")
 
     for host in hostnames:
         comments("Running on: " + host)
@@ -46,7 +46,7 @@ def parassh():
 
             i = False
 
-    print(host + " - Erledigt")
+    print(host + " - done")
     ssh.close()
 
 
